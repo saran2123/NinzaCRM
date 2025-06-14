@@ -116,6 +116,8 @@ public class WebDriverUtility {
 	public void scrollByAmount(WebDriver driver, int x, int y) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(" + x + "," + y + ")");
+		
+		System.out.println("Y");
 	}
 
 }
